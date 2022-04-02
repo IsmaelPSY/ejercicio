@@ -1,13 +1,13 @@
 function toArray(obj) {
     //Implementación
-    let a = []
+    let rpt = []
 
     for (const prop in obj){
-        a.push([prop,obj[prop]])
+        rpt.push([prop,obj[prop]])
     }
 
 
-    return a;
+    return rpt;
 }
 
 module.exports = toArray;
